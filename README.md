@@ -1,5 +1,9 @@
 # loadtest4j-logger
 
+[![Build Status](https://travis-ci.com/loadtest4j/loadtest4j-reporter-logger.svg?branch=master)](https://travis-ci.com/loadtest4j/loadtest4j-reporter-logger)
+[![Codecov](https://codecov.io/gh/loadtest4j/loadtest4j-reporter-logger/branch/master/graph/badge.svg)](https://codecov.io/gh/loadtest4j/loadtest4j-reporter-logger)
+
+
 Unified Logging (JEP158) reporter for [loadtest4j](https://github.com/loadtest4j/loadtest4j).
 
 ## Setup
