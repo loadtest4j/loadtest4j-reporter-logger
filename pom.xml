@@ -2,11 +2,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.loadtest4j.reporters</groupId>
     <artifactId>loadtest4j-logger</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <name>${project.artifactId}</name>
     <url>https://github.com/loadtest4j/loadtest4j-reporter-logger</url>
-    <description>Unified Logging (JEP158) reporter for loadtest4j.</description>
+    <description>Logging (JEP158) reporter for loadtest4j.</description>
 
     <developers>
         <developer>
