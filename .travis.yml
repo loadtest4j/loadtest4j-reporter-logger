@@ -11,6 +11,6 @@ after_success: bash <(curl -s https://codecov.io/bash)
 deploy:
   provider: script
   skip_cleanup: true
-  script: echo $GPG_SECRET_KEYS | base64 --decode | gpg --import && mvn -B -s .settings.xml verify gpg:sign deploy:deploy
+  script: echo $GPG_SECRET_KEYS | base64 --decode | gpg --import && mvn -B -s .settings.xml clean package gpg:sign deploy:deploy
   on:
     tags: true
